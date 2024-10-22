@@ -49,7 +49,7 @@ The data is visualized in Power BI, where metrics such as total views, likes, co
 - **View Count by Video Duration**: Displays how video duration impacts view count.
 - **Likes & Comments by Duration**: Analyzes the relationship between video duration and user engagement.
 
-![Power BI Dashboard](youtube_project/Readme/dash_board.jpy)
+![Power BI Dashboard](youtube_project/Readme/dash_board.jpg)
 
 ### Prerequisites
 
