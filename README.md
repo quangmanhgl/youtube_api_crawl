@@ -20,7 +20,7 @@ This project focuses on extracting YouTube data through the YouTube Data API, pr
 
 The data is requested from YouTube API using a Python script. After extraction, the raw data is staged in a SQL Server database for processing.
 
-![Data Pipeline](youtube_project/Readme/tong quan.jpg)
+![Data Pipeline](youtube_project/Readme/tong_quan.jpg)
 
 ### ETL Process in SQL Server
 
