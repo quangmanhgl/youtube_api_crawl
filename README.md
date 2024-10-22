@@ -20,7 +20,7 @@ This project focuses on extracting YouTube data through the YouTube Data API, pr
 
 The data is requested from YouTube API using a Python script. After extraction, the raw data is staged in a SQL Server database for processing.
 
-![Data Pipeline](tong quan.jpg)
+![Data Pipeline](youtube_project/Readme/tong quan.jpg)
 
 ### ETL Process in SQL Server
 
@@ -31,13 +31,13 @@ Data transformation is handled by SQL Server, where various dimensions and fact 
 - `dim_date`: Contains date information for temporal analysis.
 - `fact_video_detail`: Combines video, channel, and date information to store detailed metrics such as view count, like count, and comment count.
 
-![ETL Process](ETL.jpg)
+![ETL Process](youtube_project/Readme/ETL.jpg)
 
 ### Data Model
 
 The star schema design allows for efficient querying and reporting. It consists of three dimension tables (`dim_channel`, `dim_video`, `dim_date`) and one fact table (`fact_video_detail`), which stores the metrics for each video over time.
 
-![Data Model](model.jpg)
+![Data Model](youtube_project/Readme/model.jpg)
 
 ---
 
@@ -49,7 +49,7 @@ The data is visualized in Power BI, where metrics such as total views, likes, co
 - **View Count by Video Duration**: Displays how video duration impacts view count.
 - **Likes & Comments by Duration**: Analyzes the relationship between video duration and user engagement.
 
-![Power BI Dashboard](dash_board.jpy)
+![Power BI Dashboard](youtube_project/Readme/dash_board.jpy)
 
 ### Prerequisites
 
